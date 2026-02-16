@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+#main-header {
+    background-color: #13293d;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#main-header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#main-header p {
+    color: #9ecae1;
+}
+
+/* Navigation */
+nav {
+    background-color: #2f3a44;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #cfd8dc;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Layout */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Sections */
+section h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #1b3b5f;
+    border-bottom: 3px solid #0d6efd;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/* Highlight */
+.highlight {
+    background-color: #e3f2fd;
+    border-left: 5px solid #0d6efd;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* Cards */
+.tool-card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.tool-card h3 {
+    color: #2e7d32;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    background-color: #f1f1f1;
+}
+
+tr:nth-child(even) td {
+    background-color: #e9ecef;
+}
+
+tbody tr:hover td {
+    background-color: #d0e7ff;
+}
+
+
+
+
